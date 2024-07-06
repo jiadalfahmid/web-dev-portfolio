@@ -141,6 +141,7 @@ padding-bottom: 20px;
 
 .about-me{
   padding: 110px 18%;
+  margin: 80px 0px 80px 0px;
 }
 .items{
   display: flex;
@@ -158,6 +159,7 @@ padding-bottom: 20px;
 .cards{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 80px;
 }
 
 .cards .img-box{
@@ -166,8 +168,6 @@ padding-bottom: 20px;
 }
 
 .img-box{
-  width: 267px;
-height: 300px;
   margin: 10px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
@@ -176,5 +176,60 @@ height: 300px;
   margin-bottom: 25px;
 }
 /* skill ends */
+/* resume starts */
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px auto;
+}
 
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-col{
+  padding: 20px;
+}
+
+.resume-col .resume-title{
+  color: rgb(71, 71, 71);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 30px;
+}
+
+.resume-col .col-title{
+  color: rgb(71, 71, 71);
+font-size: 20px;
+font-weight: 700;
+line-height: 34px;
+margin-bottom: 10px;
+}
+
+.resume-col .resume-subtitle{
+  color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+margin-bottom: 20px;
+}
+
+.resume-col .resume-description{
+  color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+margin-bottom: 30px;
+width: 90%;
+}
+
+.resume-col hr{
+  margin-bottom: 30px;
+}
+
+/* resume ends */
 
