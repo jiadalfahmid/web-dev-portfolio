@@ -15,6 +15,34 @@ background-color: #FD6E0A;
 border: none;
 border-radius: 5px;
 padding: 16px 30px;
+cursor: pointer;
+}
+
+.section-title{
+  color: rgb(24, 24, 24);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-description{
+  color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.container-bg{
+  background-color: #FFF8F3;
 }
 /* global css ends */
 
@@ -69,7 +97,7 @@ nav ul li a{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 30px 0px 150px;
+  margin: 0px 30px 80px 150px;
 }
 
 .banner-content{
@@ -108,3 +136,24 @@ padding-bottom: 20px;
   margin-bottom: -5px;
 }
 /* banner ends */
+/* header ends */
+/* about me starts */
+
+.about-me{
+  padding: 110px 18%;
+}
+.items{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.items .info{
+  font-weight: 700;
+}
+/* about me ends */
+
+
+
