@@ -288,3 +288,196 @@ width: 90%;
   border: none;
 }
 /* footer ends */
+
+/* Responsive css starts */
+
+@media screen and (max-width: 576px) {
+
+  .btn{
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .container{
+    max-width: 566px;
+  }
+  header{
+    background-position: bottom left, bottom right;
+    text-align: right;
+  }
+  nav{
+    padding: 10px 10px;
+  }
+  nav ul li {
+    padding: 0px 0px 0px 30px;
+}
+  nav .logo {
+    margin-left: 30px;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content .title{
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .banner-content .subtitle{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 20px auto -15px;
+  }
+  .banner .banner-img  img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner-content .btn {
+    margin: 0px 0px 0px 10px;
+  
+  }
+  /* header section end */
+
+  .about-me{
+    padding: 40px;
+    margin: 40px;
+  }
+  .about-me .items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+/* about section ends */
+.section-description {
+  padding: 0px 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 400px;
+  text-align: center;
+}
+/* work section ends */
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  padding: 40px;
+}
+.resume-container .resume-description{
+  margin: 20px auto;
+}
+/* resume section ends */
+
+.footer-col{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-col .social, .footer-col .form
+{
+  width: 100%;
+}
+.social .icons {
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
+/* Medium device css starts */
+
+@media screen and (min-width: 567px) and (max-width: 992px){
+
+  .btn{
+    padding: 15px 25px;
+    font-size: 16px;
+  }
+  .container{
+    max-width: 960px;
+  }
+  header{
+    background-position: bottom left, bottom right;
+    text-align: right;
+  }
+  nav{
+    padding: 10px;
+    margin: 20px;
+  }
+  nav .logo {
+    margin-left: 30px;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  .banner-content{
+    margin-right: 50px;
+  }
+  .banner-content .title{
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .banner-content .subtitle{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 20px auto -15px;
+  }
+  .banner .banner-img  img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner-content .btn {
+    margin: 0px 0px 0px 10px;
+  
+  }
+  /* header section end */
+
+  .about-me{
+    padding: 60px;
+    margin: 60px;
+  }
+  .about-me .items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+/* about section ends */
+.section-description {
+  padding: 0px 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+/* work section ends */
+.resume-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+.resume-container .resume-description{
+  margin: 20px 0px;
+}
+/* resume section ends */
+
+
+
+
+
+
+
+
+}
